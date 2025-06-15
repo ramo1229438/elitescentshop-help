@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.ticker {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #00ffcc;
+  color: black;
+  padding: 10px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.ticker a {
+  color: blue;
+  text-decoration: none;
+}
