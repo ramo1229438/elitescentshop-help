@@ -4,19 +4,66 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>EliteScentShop Help</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0a0a;
+      color: white;
+      text-align: center;
+    }
+
+    .ticker {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #00ffcc;
+      color: black;
+      padding: 12px 0;
+      font-weight: bold;
+      animation: scroll 10s linear infinite;
+    }
+
+    .container {
+      margin-top: 100px;
+      padding: 20px;
+    }
+
+    a {
+      color: blue;
+      text-decoration: underline;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    @keyframes scroll {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+  </style>
 </head>
 <body>
-  <div class="ticker">Thank you for buying • Join our Discord: 
+  <div class="ticker">
+    Thank you for buying • Join our Discord: 
     <a href="https://discord.gg/5Z6n8yGEWQ" target="_blank">Click here</a>
   </div>
+
   <div class="container">
     <h1>EliteScentShop Help</h1>
+
     <p><strong>Sizes: 38.5 - 45</strong><br>
     After you have made a purchase, open a ticket and take a proof picture of the purchase and say which size you need.</p>
+
     <p><strong>Sizes: S - XXL</strong><br>
     After you have made a purchase, open a ticket and take a proof picture of the purchase and say which size you need.</p>
   </div>
-  <script src="script.js"></script>
 </body>
 </html>
